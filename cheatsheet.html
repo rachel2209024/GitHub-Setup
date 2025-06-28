@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rachel Villarreal">
+    <meta name="description" content="Graphical Cheatsheet for Lesson 8 - Reference for graphic effects and media elements.">
+    <meta name="keywords" content="CSS, HTML, filters, blend modes, media, lesson 8, cheatsheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Graphical Cheatsheet</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="container"> 
+
+    <section id="site-navigation">
+      <nav>
+        <ul>
+          <li><span class="material-icons">home</span> <a href="index.html">Home</a></li>
+          <li><span class="material-icons">assignment</span> <a href="graphical-cheatsheet.html">Cheatsheet</a></li>
+          <li><span class="material-icons">code</span> <a href="https://yourusername.github.io/lesson8practice/">Practice Activities</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <header>
+      <h1>Lesson 8 Project</h1>
+      <div>
+        <p>Name: Rachel Villarreal</p>
+        <p>GitHub: <a href="https://github.com/rachel2209024" target="_blank">rachel2209024</a></p>
+        <p>Date: June 21, 2025</p>
+      </div>
+    </header>
+    
+<main>
+    <section>
+            <h2>Graphic Effects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Possible Values</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><code>filter</code></td><td>blur(), brightness(), contrast(), drop-shadow(), grayscale(), hue-rotate(), invert(), opacity(), saturate(), sepia(), url()</td></tr>
+                    <tr><td><code>backdrop-filter</code></td><td>Same as filter</td></tr>
+                    <tr><td><code>mix-blend-mode</code></td><td>normal, multiply, screen, overlay, darken, lighten, color-dodge, color-burn, hard-light, soft-light, difference, exclusion, hue, saturation, color, luminosity</td></tr>
+                    <tr><td><code>isolation</code></td><td>auto, isolate</td></tr>
+                    <tr><td><code>clip-path</code></td><td>inset(), circle(), ellipse(), polygon(), path(), url()</td></tr>
+                    <tr><td><code>mask-image</code></td><td>url(), linear-gradient(), radial-gradient()</td></tr>
+                    <tr><td><code>mask-mode</code></td><td>match-source, luminance, alpha</td></tr>
+                    <tr><td><code>mask-repeat</code></td><td>repeat, repeat-x, repeat-y, no-repeat, space, round</td></tr>
+                    <tr><td><code>mask-position</code></td><td>top, bottom, left, right, center, x/y values</td></tr>
+                    <tr><td><code>mask-size</code></td><td>auto, contain, cover, length/percentage</td></tr>
+                    <tr><td><code>mask-origin</code></td><td>border-box, padding-box, content-box</td></tr>
+                    <tr><td><code>mask-clip</code></td><td>border-box, padding-box, content-box, no-clip</td></tr>
+                    <tr><td><code>mask-composite</code></td><td>add, subtract, intersect, exclude</td></tr>
+                    <tr><td><code>mask-type</code></td><td>luminance, alpha</td></tr>
+                    <tr><td><code>mask</code></td><td>Shorthand for all mask properties</td></tr>
+                    <tr><td><code>shape-outside</code></td><td>circle(), ellipse(), inset(), polygon(), url()</td></tr>
+                    <tr><td><code>shape-margin</code></td><td>length values</td></tr>
+                    <tr><td><code>shape-image-threshold</code></td><td>0.0 to 1.0</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Media Elements Section -->
+        <section>
+            <h2>Media Elements</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Media Category</th>
+                        <th>HTML Elements</th>
+                        <th>Attributes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Figures</td>
+                        <td><code>&lt;figure&gt;</code>, <code>&lt;img&gt;</code>, <code>&lt;figcaption&gt;</code></td>
+                        <td><code>src</code>, <code>alt</code></td>
+                    </tr>
+                    <tr>
+                        <td>Pictures</td>
+                        <td><code>&lt;picture&gt;</code>, <code>&lt;source&gt;</code>, <code>&lt;img&gt;</code></td>
+                        <td><code>srcset</code>, <code>media</code>, <code>type</code>, <code>alt</code></td>
+                    </tr>
+                    <tr>
+                        <td>Audio</td>
+                        <td><code>&lt;audio&gt;</code>, <code>&lt;source&gt;</code></td>
+                        <td><code>src</code>, <code>type</code>, <code>controls</code>, <code>autoplay</code>, <code>loop</code>, <code>muted</code></td>
+                    </tr>
+                    <tr>
+                        <td>Video</td>
+                        <td><code>&lt;video&gt;</code>, <code>&lt;source&gt;</code></td>
+                        <td><code>src</code>, <code>type</code>, <code>controls</code>, <code>autoplay</code>, <code>muted</code>, <code>loop</code></td>
+                    </tr>
+                    <tr>
+                        <td>Canvas</td>
+                        <td><code>&lt;canvas&gt;</code></td>
+                        <td><code>width</code>, <code>height</code></td>
+                    </tr>
+                    <tr>
+                        <td>Other Digital Media</td>
+                        <td><code>&lt;iframe&gt;</code>, <code>&lt;embed&gt;</code>, <code>&lt;object&gt;</code></td>
+                        <td><code>src</code>, <code>width</code>, <code>height</code>, <code>type</code>, <code>title</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
